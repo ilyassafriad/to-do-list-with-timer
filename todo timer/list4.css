@@ -1,0 +1,221 @@
+body{
+    background:linear-gradient(to left, gray, #1D1D1D);
+}
+.firstPage{
+    border:1px solid black;
+    width:880px;
+    height:500px;
+    position:absolute;
+    left:20%;
+    top:18%;
+    border-radius:20px;
+    z-index:1;
+}
+.first, .second, .three, .foor{
+    width:400px;
+    height:200px;
+    margin-top:20px;
+    margin-left:20px;
+    display:inline-block;
+    border-radius:20px;
+    background-color:lightgray;
+}
+
+.text{
+    text-align:center;
+    color:black;
+    margin-top:80px;
+    font-family: sans-serif;
+    font-size:25px; 
+    color:rgb(185, 181, 181);
+    text-decoration:underline;
+}
+
+.add{
+    margin-top:310px;
+    margin-left:780px;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background-color:transparent;
+    border:1px solid black;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+    outline:none;
+}
+.add:hover::before{
+    content:'add';
+    color:black;
+    font-size:25px;
+}
+
+
+.secondPage{
+    background-color:gray;
+    width:880px;
+    height:500px;
+    position:absolute;
+    z-index:2;
+    left:20%;
+    top:18%;
+    border-radius:20px;
+}
+.secondPage .task{
+    margin-left:250px;
+    margin-top:70px;
+    outline:none;
+    width:400px;
+    height:100px;
+    cursor:text;
+    font-size:18px;
+    color:black;
+    font-family:sans-serif;
+    border-radius:15px;
+    background-color:transparent;
+    border:1px solid black;
+    cursor:pointer;
+}
+label{
+    font-size:18px;
+    font-family:sans-serif;
+    margin-left:250px;
+    position:absolute; 
+    margin-top:50px;
+}
+.date{
+    width:400px;
+    height:40px;
+    position:absolute;
+    margin-top:80px;
+    margin-left:250px;
+    font-size:20px;
+    color:black;
+    background-color:transparent;
+    border:1px solid black;
+    outline:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.submit{
+    margin-top:240px;
+    margin-left:380px;
+    width:200px;
+    height:50px;
+    background-color: transparent;
+    border:1px solid black;
+    cursor:pointer;
+    font-size:20px;
+    font-family:sans-serif;
+    outline:none;
+    border-radius:20px;
+}
+.submit:hover{
+    text-decoration:underline;
+}
+
+
+.back{
+    float:right;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+    margin-right:20px;
+    font-family:monospace;
+    border:1px solid white;
+    width:50px;
+    height:30px;
+    text-align:center;
+    border-radius:5px;
+}
+.back:hover{
+    color:white;
+    border-color:red;
+    background-color:red;
+}
+
+/* .place{
+    margin-top:190px;
+    margin-left:780px;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background-color:transparent;
+    border:1px solid black;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+    outline:none;
+    position:flex;  
+}  */
+
+
+
+
+
+.change{
+   /* position:absolute;
+    width:400px;
+    height:200px;
+    margin-top:20px;
+    margin-left:20px;
+     display:inline-block;   
+    border-radius:20px;
+    background-color:lightgray;
+
+    text-align:center;
+    text-decoration:underline;
+    font-size: 20px;
+    font-family:sans-serif; */
+
+
+    width:400px;
+    height:200px;
+    border-radius:20px;
+    background-color:lightgray;
+    margin-top:20px;
+    margin-left:20px;
+    display:inline-block;
+
+    text-align:center;
+    text-decoration:underline;
+    font-size:20px;
+    font-family:sans-serif;
+    cursor:pointer;
+}
+
+.place{
+    margin-top:400px;
+    margin-left:780px;
+    position:absolute;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background-color:transparent;
+    border:1px solid black;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+    outline:none;
+}
+
+
+.demo{
+    margin-top:100px;
+    font-family:monospace;
+    border-bottom:none;
+    border:1px solid black;
+    width:200px;
+    height:50px;
+    margin-left:90px;
+}
+h2{
+    text-align:center;
+    text-decoration:underline;
+    font-size:20px;
+    font-family:sans-serif;
+}
